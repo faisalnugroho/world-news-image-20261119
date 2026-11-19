@@ -8,15 +8,26 @@ An editorial one-image digest of the major stories reported on Thursday, 19 Nove
 
 ## Run it
 
+Requires Node.js 22. Deterministic run (no network, built-ins only):
+
 ```sh
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
-The program copies the deterministic `entry.png` artwork to the grader's output directory. It uses only Node.js built-ins and makes no network requests.
+The program copies the deterministic `entry.png` artwork to the grader's output directory.
 
 ## Editorial scope
 
-The image names its date and presents a broad selection across diplomacy, conflict, Europe, Asia, the Middle East, and climate. Short labels are intentionally used so the image remains legible at thumbnail size.
+The image names its date and presents six threads across six regions/topics:
+
+1. **Diplomacy** — trilateral talks: Trump, Xi and Putin meet in Shenzhen.
+2. **Asia-Pacific** — Russian air power: Tu-95 bombers land in Vietnam.
+3. **Middle East** — Gulf escalation: Iranian attacks on US allies in Kuwait and Bahrain.
+4. **Gaza** — ceasefire under strain: Israeli forces cross the boundary near Nuseirat.
+5. **Europe** — support for Ukraine: a €45bn European Commission loan.
+6. **East Asia** — Korea's exam day: university entrance exam cheating scandal.
+
+Short labels are intentionally used so the image remains legible at thumbnail size.
 
 ---
 
